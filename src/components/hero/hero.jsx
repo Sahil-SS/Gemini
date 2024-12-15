@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import "./hero-pagge.css";
+import "./hero-page.css";
 import { assets } from "../../assets/assets";
 import { Context } from "../../context/Context";
-const Main = () => {
+const hero = () => {
   const {
     onSent,
     recentPrompt,
@@ -95,4 +95,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default hero;
